@@ -3,4 +3,4 @@ MAINTAINER jameshu
 RUN apt-get update
 RUN apt-get install -y vim
 EXPOSE 8080
-ADD web/web.php /var/www/
+ADD web.php /var/www/
